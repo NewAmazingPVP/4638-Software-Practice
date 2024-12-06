@@ -40,6 +40,7 @@ public class ExampleSubsystem extends SubsystemBase {
     public void setSpeed(double leftSpeed, double rightSpeed) {
         leftMotor.set(leftSpeed);  // Set speed for left motor
         rightMotor.set(rightSpeed);  // Set speed for right motor
+        // this will cause a conflict
     }
 
 
