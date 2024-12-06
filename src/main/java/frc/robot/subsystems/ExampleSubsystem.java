@@ -16,9 +16,6 @@ public class ExampleSubsystem extends SubsystemBase {
 
     public ExampleSubsystem() {
         // Set motors to brake mode
-        // hi
-        // hello
-        // hello I am Parth
         leftMotor.setIdleMode(CANSparkMax.IdleMode.kCoast);
         rightMotor.setIdleMode(CANSparkMax.IdleMode.kCoast);
 
@@ -40,6 +37,7 @@ public class ExampleSubsystem extends SubsystemBase {
     public void setSpeed(double leftSpeed, double rightSpeed) {
         leftMotor.set(leftSpeed);  // Set speed for left motor
         rightMotor.set(rightSpeed);  // Set speed for right motor
+        //This is for the speed of the robot
     }
 
 
@@ -49,3 +47,4 @@ public class ExampleSubsystem extends SubsystemBase {
         // No additional actions needed here for now
     }
 }
+//hello
